@@ -24,8 +24,8 @@ export default class Klaimresto extends Component {
             <Button
               onClick={this.props.kurang}
               style={{
-                backgroundColor: "green",
-
+                backgroundColor: "red",
+                marginLeft: "10%",
                 marginTop: "2% "
               }}
             >
@@ -34,7 +34,7 @@ export default class Klaimresto extends Component {
             <Button
               onClick={this.props.tambah}
               style={{
-                backgroundColor: "green",
+                backgroundColor: "red",
                 marginTop: "2% ",
                 marginLeft: "10%"
               }}

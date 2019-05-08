@@ -144,9 +144,9 @@ export default class Makanan extends Component {
                 </tbody>
               </Table>
               <Button
-                style={{ backgroundColor: "red", color: "white" }}
+                style={{ backgroundColor: "green", color: "white" }}
                 component={Link}
-                to="/selesai"
+                to="/terimakasih"
                 onClick={this.bayar}
               >
                 Bayar Sekarang

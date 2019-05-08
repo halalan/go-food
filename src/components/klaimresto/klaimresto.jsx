@@ -3,9 +3,10 @@ import { Card, CardImg, CardBody } from "reactstrap";
 import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core";
 
-export default class klaimresto extends Component {
+export default class Klaimresto extends Component {
   render() {
     const { id, nama, lokasi, gambar } = this.props.item;
+
     return (
       <div>
         <Card style={{ width: 280, marginTop: 20, height: 400 }}>
